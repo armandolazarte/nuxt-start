@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .page-enter-active,
+  .page-leave-active {
+    transition: opacity 3.5s;
+  }
+  .page-enter,
+  .page-leave-to {
+    opacity: 0;
+  }
+}
