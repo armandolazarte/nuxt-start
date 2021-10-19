@@ -1452,6 +1452,21 @@
   dependencies:
     "mini-svg-data-uri" "^1.2.3"
 
+"@tailwindcss/line-clamp@^0.2.2":
+  "integrity" "sha512-NgA4Ds+/eCiO+6O3SooRsfJ8m7M2+QvNvHwOjBQq7FIYoWwAV4I4Wu4fjHeuO9Yi6p47ceHUKEGGEBh0ozQodg=="
+  "resolved" "https://registry.npmjs.org/@tailwindcss/line-clamp/-/line-clamp-0.2.2.tgz"
+  "version" "0.2.2"
+
+"@tailwindcss/typography@^0.4.1":
+  "integrity" "sha512-ovPPLUhs7zAIJfr0y1dbGlyCuPhpuv/jpBoFgqAc658DWGGrOBWBMpAWLw2KlzbNeVk4YBJMzue1ekvIbdw6XA=="
+  "resolved" "https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.4.1.tgz"
+  "version" "0.4.1"
+  dependencies:
+    "lodash.castarray" "^4.4.0"
+    "lodash.isplainobject" "^4.0.6"
+    "lodash.merge" "^4.6.2"
+    "lodash.uniq" "^4.5.0"
+
 "@types/anymatch@*":
   "integrity" "sha512-qLChUo6yhpQ9k905NwL74GU7TxH+9UODwwQ6ICNI+O6EDMExqH/Cv9NsbmcZ7yC/rRXJ/AHCzfgjsFRY5fKjYw=="
   "resolved" "https://registry.npmjs.org/@types/anymatch/-/anymatch-3.0.0.tgz"
@@ -5827,10 +5842,20 @@
   "resolved" "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz"
   "version" "3.0.0"
 
+"lodash.castarray@^4.4.0":
+  "integrity" "sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU="
+  "resolved" "https://registry.npmjs.org/lodash.castarray/-/lodash.castarray-4.4.0.tgz"
+  "version" "4.4.0"
+
 "lodash.debounce@^4.0.8":
   "integrity" "sha1-gteb/zCmfEAF/9XiUVMArZyk168="
   "resolved" "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
   "version" "4.0.8"
+
+"lodash.isplainobject@^4.0.6":
+  "integrity" "sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs="
+  "resolved" "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz"
+  "version" "4.0.6"
 
 "lodash.kebabcase@^4.1.1":
   "integrity" "sha1-hImxyw0p/4gZXM7KRI/21swpXDY="
@@ -5841,6 +5866,11 @@
   "integrity" "sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4="
   "resolved" "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz"
   "version" "4.1.2"
+
+"lodash.merge@^4.6.2":
+  "integrity" "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ=="
+  "resolved" "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
+  "version" "4.6.2"
 
 "lodash.template@^4.5.0":
   "integrity" "sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A=="
