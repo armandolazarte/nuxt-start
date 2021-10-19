@@ -31,7 +31,7 @@ export default {
     "@nuxtjs/tailwindcss",
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
-    'nuxt-gsap-module'
+    "nuxt-gsap-module"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
