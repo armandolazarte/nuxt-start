@@ -17,7 +17,10 @@ module.exports = {
       ...defaultTheme.screens
     },
     extend: {
-      colors
+      colors,
+      fontFamily: {
+        inter: "'Inter', sans-serif"
+      }
     }
   },
   variants: {
