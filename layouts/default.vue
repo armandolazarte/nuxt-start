@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 min-h-screen font-inter">
+  <div class="bg-gray-100 min-h-screen font-inter selection:bg-yellow-200">
     <div class="relative">
       <Nav />
       <nuxt />

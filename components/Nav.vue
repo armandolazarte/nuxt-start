@@ -12,7 +12,7 @@
               <img
                 class="h-8 w-auto sm:h-10"
                 src="/workflow-mark-teal-200-cyan-400.svg"
-                alt=""
+                alt="logo"
               />
             </nuxt-link>
             <div class="-mr-2 flex items-center md:hidden">
