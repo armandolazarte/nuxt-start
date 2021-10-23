@@ -49,16 +49,15 @@ export default {
     hostname: "http://localhost:3000",
     gzip: true,
     exclude: ['/secret', '/admin/**'],
-    routes: [
-        '/about',
-        '/contact',
-        {
-            url: '/view/javascript-tips-tricks-n1',
-            changefreq: 'daily',
-            priority: 1,
-            lastmodISO: '2017-06-30T13:30:00.000Z',
-        },
-    ],
+    // routes: [
+    //     '/',
+    //     '/about',
+    // ],
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    }
 },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

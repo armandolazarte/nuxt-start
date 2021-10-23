@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-2xl mx-auto pt-6 px-4 sm:px-6">
+  <div class="pt-6 px-4 sm:px-6">
     <h1
       class="invisible text-sky-300 text-9xl font-extrabold"
       v-gsap.from="{
@@ -11,7 +11,7 @@
     >
       Hi!
     </h1>
-    <div class="mt-8 mx-auto prose prose-2xl">
+    <div class="mt-8 mx-auto">
       <h2>Путин объявил нерабочими дни с 30 октября по 7 ноября</h2>
       <p>Президент России Владимир Путин объявил о введении в стране <span class="bg-yellow-200">с 30 октября по 7 ноября</span> нерабочих дней с сохранением заработной платы. Об этом он заявил во время совещания с членами правительства, трансляцию которого ведет телеканал «360» на YouTube.</p>
       <blockquote><p>«Сейчас особенно важно сбить пик новой волны эпидемии», — сказал он.</p></blockquote>

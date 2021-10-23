@@ -1,9 +1,8 @@
 <template>
-  <div class="bg-gray-100 min-h-screen font-inter selection:bg-yellow-200">
-    <div class="relative">
+  <div class="bg-gray-100 flex flex-col min-h-screen font-inter selection:bg-yellow-200">
       <Nav />
-      <nuxt />
-    </div>
+      <nuxt class="flex-grow w-full" />
+      <Footer class="flex-shrink-0" />
   </div>
 </template>
 
