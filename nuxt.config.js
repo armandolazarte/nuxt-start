@@ -1,8 +1,14 @@
+import getRoutes from "./utils/getRoutes";
+
 export default {
   // server: {
   //   host: '0.0.0.0'
   // },
   loading: false,
+  // loading: {
+  //   color: 'blue',
+  //   height: '5px'
+  // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "nuxt-start",
@@ -44,22 +50,6 @@ export default {
     "@nuxtjs/sitemap"
   ],
 
-  sitemap: {
-    // options
-    hostname: "http://localhost:3000",
-    gzip: true,
-    exclude: ['/secret', '/admin/**'],
-    // routes: [
-    //     '/',
-    //     '/about',
-    // ],
-    defaults: {
-      changefreq: 'daily',
-      priority: 1,
-      lastmod: new Date()
-    }
-},
-
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
@@ -77,6 +67,24 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
-};
+  build: {},
 
+  sitemap: {
+    // options
+    hostname: "http://localhost:3000",
+    gzip: true,
+    exclude: ["/secret", "/admin/**"],
+    routes() {
+      return getRoutes();
+    },
+    // routes: [
+    //     '/',
+    //     '/about',
+    // ],
+    defaults: {
+      changefreq: "daily",
+      priority: 1,
+      lastmod: new Date()
+    }
+  }
+};
