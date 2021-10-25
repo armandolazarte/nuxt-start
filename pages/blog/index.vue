@@ -19,7 +19,7 @@
 export default {
   async asyncData({ $content }) {
     const articles = await $content("blog")
-      .sortBy("date", "asc")
+      .sortBy("date", "desc")
       .fetch()
       .catch(err => {
         error({ statusCode: 404, message: "Page not found" });
