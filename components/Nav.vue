@@ -2,7 +2,7 @@
   <header class="relative">
     <div class="bg-gray-900 py-3">
       <nav
-        class="relative max-w-screen-2xl mx-auto flex items-center justify-between px-4 sm:px-6"
+        class="relative w-full mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16"
         aria-label="Global"
       >
         <div class="flex items-center flex-1">
@@ -58,6 +58,11 @@
               to="/blog"
               class="text-base font-medium text-white hover:text-gray-300"
               >Blog</nuxt-link
+            >
+            <nuxt-link
+              to="/testlayout"
+              class="text-base font-medium text-white hover:text-gray-300"
+              >Layout</nuxt-link
             >
           </div>
         </div>
