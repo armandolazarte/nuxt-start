@@ -5,6 +5,15 @@ description: Сборная солянка, песочница
 
 Сборная солянка, песочница
 
+[Making a Navigation Drawer/Sliding Sidebar with TailwindCSS (Blueprint)](https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l)
+
+[Simple CSS text animation](https://codepen.io/yemon/pen/pWoROm)
+
+[CSS Rotating Words | CSS Text Animation](https://www.youtube.com/watch?v=f0qX-lkk8Y8)
+
+[Create a Scroll-Activated Sticky Navigation with JavaScript!](https://www.youtube.com/watch?v=RYUuGgC_IY0)
+
+
 <t-button></t-button>
 
 ```html
