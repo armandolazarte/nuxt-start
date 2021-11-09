@@ -19,7 +19,7 @@ module.exports = {
     extend: {
       colors,
       fontFamily: {
-        inter: "'Inter', sans-serif"
+        inter: "'Inter', sans"
       },
       maxWidth: {
         '1/4': '25%',
