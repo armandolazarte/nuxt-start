@@ -13,6 +13,14 @@ description: Сборная солянка, песочница
 
 [Create a Scroll-Activated Sticky Navigation with JavaScript!](https://www.youtube.com/watch?v=RYUuGgC_IY0)
 
+[Use CSS clamp() with GreenSock for Responsive Animated Typography](https://www.youtube.com/watch?v=gbKXyB2qqLI)
+
+[Text animation tutorial - An introduction to GSAP SplitText](https://www.youtube.com/watch?v=3Rg6uwBSc_8)
+
+[Split text animation using html css | Gsap 3 animation | Frontend Design | 2020](https://www.youtube.com/watch?v=tCNz6dSZXpk)
+
+[GSAP Text Animation](https://www.youtube.com/watch?v=uscmV3ylgPg)
+
 
 <t-button></t-button>
 
